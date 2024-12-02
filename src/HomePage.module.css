@@ -1,0 +1,7 @@
+.mainIMG {
+  padding-top: 20px;
+  display: flex;
+  justify-self: center;
+  width: 80%;
+  height: 300px;
+}

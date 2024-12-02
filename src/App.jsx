@@ -1,13 +1,13 @@
-import { Outlet, Link } from "react-router-dom";
-import styles from "./Menu.module.css";
+// import { Outlet, Link } from "react-router-dom";
+// import styles from "./Menu.module.css";
 import Menu from "./menu";
-import main from "./assets/2.jpg";
+import HomePage from "./homePage";
 
 function App() {
   return (
     <>
       <Menu />
-      <img src={main} alt="waves" />
+      <HomePage />
     </>
   );
 }
